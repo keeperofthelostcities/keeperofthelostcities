@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
 <script>
-Var prompt=window.prompt(“Do you like Keeper of the Lost Cities?”,”Yes!”);
-Var alert=window.alert(“If so, Check out this website!”);
+var result=window.prompt("Do you like Keeper of the Lost Cities?”,”Yes");
+window.alert("If so, Check out this website!”);
 </script>
 <head>
 	<title>
@@ -33,6 +33,10 @@ Var alert=window.alert(“If so, Check out this website!”);
 	h2 {
 		text-align: center;
 		margin-top: 0;
+	}
+	
+	img{
+		border-radius: 14px;
 	}
 	
 	#igloo {
@@ -68,10 +72,17 @@ Var alert=window.alert(“If so, Check out this website!”);
 		color: #0066cc;
 		text-decoration: none;
 	}
+	#p {
+		font-size:20px;
+		color:#4D4CAC;
+	}
+	p hover{
+	background-color:pink;
 	
 	a:hover {
     background-color:#846C67;
 	color: #ffffff;
+	
 	
 	</style>
 </head>
@@ -82,7 +93,13 @@ Var alert=window.alert(“If so, Check out this website!”);
 
 <h1>Keeper Of The Lost Cities</h1>
 	<h3>By Shannon Messenger</h3>
-<h2><img valign="center" src="https://i.pinimg.com/736x/03/54/62/035462ce4a2e45a528293537c0d5e727--keeper-book-series.jpg" width="400px" height="400px"></h2>
+<h2><img valign="center" src="images/Sophie-Quote.jpg" width="500px" height="400px">
+<img valign="center" src="https://i.pinimg.com/736x/03/54/62/035462ce4a2e45a528293537c0d5e727--keeper-book-series.jpg" width="400px" height="400px">
+<img valign="center" src="images/Sophie-Quote.jpg" width="500px" height="400px">
+</h2>
+<p id="p">This website is about the book series Keeper Of The Lost Cities.
+It includes a quick summary of each of the books and a description of each of the main characters.
+</p>
 </body>
 </html>
 
